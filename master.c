@@ -2,6 +2,11 @@
 #include <conio.h>
 int main()
 {
-    printf("\nHello Nice to meet YOu");
+    int a, b, c;
+    printf("\nEnter Two Numbers: ");
+    scanf("%d%d", &a, &b);
+    c = a + b;
+    printf("\nSum of %d and %d is: %d", a, b, c);
+    getch();
     return 0;
 }
